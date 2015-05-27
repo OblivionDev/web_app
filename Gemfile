@@ -38,3 +38,15 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'bundler'
+
+gem 'rails_config'
+gem 'simple_form'
+gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+gem 'bootstrap-sass-extras'
+gem 'validates_formatting_of'
+gem 'tzinfo-data'
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
